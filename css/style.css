@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Questrial&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #010506;
+}
+
+a{
+    text-decoration: none;
+}
+.logo{
+    padding: 20px 15px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 130%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    background-color:#010506;
+}
+
+.nav-list {
+    width: 45%;
+    background-color: #010506;
+    display: flex;
+    text-align: right;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px 30px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #f8c25c;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #EEF8F7 ;
+}
+  
+.navImage{
+    width: 50%;
+    background-color: #010506;
+}
+
+
+.box-main {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstSection{
+    height: 100vh;
+    background-color: #010506;
+  
+}
+
+.fhalf{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #EEF8F7;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shalf{
+    display: flex;
+    width: 20%;
+}
+
+.shalf img{
+    width: 110px;
+    display: flex;
+    margin: auto;
+}
+
+.btn {
+    padding: 6px 10px;
+    margin: 7px 8px;
+    background: none;
+    color: #f8c25c; 
+    border: 2px solid #f8c25c;
+    border-radius: 1px ;
+    font-size: 12px;
+    font-family: 'Questrial', sans-serif;;
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: #f8c25c;
+    color: #010506;
+    cursor: pointer;
+}
+
+.secRight{
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    background-color: #f8c25c;
+}
+
+.secLeft{
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    background-color: #f8c25c;
+}
+
+.para{
+    padding: 0px 60px;
+}
+
+.sectionTag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+.sectionSubTag {
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+}
+
+.btn-learn {
+    display: flex;
+    margin: 10px 1px;
+    padding: 6px 15px;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    background: none;
+    border: 2px solid #010506;
+    border-radius: 1px;
+    transition-duration: 0.4s;
+}
+
+.btn-learn:hover{
+    background-color: #010506;
+    color: #f8c25c;
+    cursor: pointer;
+}
+
+.imgBook {
+    display: flex;
+    width: 160px;
+    margin: auto;
+}
+
+.imgdown {
+    width: 5%;
+    display: block;
+    padding: 40px 40px;
+    margin: 10px 45%;
+}
+
+.imgProject {
+    display: flex;
+    width: 160px;
+    margin: auto;
+}
+
+.imgCourse{
+    display: flex;
+    width: 180px;
+    margin: auto;
+}
+
+.contact{
+    padding: 60px 20px;
+    background-color: #010506;
+    color: #f8c25c;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+
+
+.forms{
+    max-width: 62%;
+    margin: 42px auto;
+}
+
+.first{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    font-family:  'Questrial', sans-serif;
+    border-radius: 0px;
+    border: 2px solid #f8c25c;
+    background-color: #010506;
+    color: #EEF8F7;
+}
+
+#SubButton{
+    padding: 6px 15px;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    background: none;
+    border: 2px solid #f8c25c;
+    border-radius: 1px;
+    color: #f8c25c;
+    transition-duration: 0.4s;
+}
+
+
+#SubButton:hover{
+    background-color: #f8c25c;
+    color: #010506;
+    cursor: pointer;
+}
+
+
+.submit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 20px;
+    height: 100px;
+}
+
+.footext{
+    background-color: #010506;
+    color: #f8c25c;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center; 
+    padding: 40px 40px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 15px
+
+}
+
+.line{
+    width: 30px;
+    background-color: #f8c25c;
+    height: 3px;
+    margin: 5px 2px;
+}

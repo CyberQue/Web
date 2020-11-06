@@ -1,0 +1,73 @@
+@media only screen and (max-width: 911px) {
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        height: 300px;
+    }
+
+    .logo{
+        width: 45%;
+        margin: auto;
+        padding: 0px 0px;
+        padding-right: 5%;
+    }
+
+    .navImage{
+        margin: 5px 5px;
+        padding: 5px 5px;
+        flex-direction: column;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .sectionTag{
+        font-size: 30px;
+    }
+
+    .sectionSubTag{
+        font-size: 20px; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .para{
+        width: 100%;
+    }
+    
+    .first{
+        height: 70vh;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .second{
+        height: 70vh;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .footext{
+        font-size: 12px;
+    }
+
+    .para-soon{
+        font-size: 20px;
+    }
+
+    .images{
+        width: 110px;
+    }
+
+}

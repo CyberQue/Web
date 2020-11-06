@@ -1,0 +1,99 @@
+@media only screen and (max-width: 911px) {
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        height: 300px;
+    }
+    .logo{
+        width: 40%;
+        margin: auto;
+    }
+
+    .navImage{
+        flex-direction: column;
+    
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    
+    
+    .secRight{
+        padding: 40px 10px;
+        flex-direction: column-reverse;
+    }  
+    .secLeft{
+        padding: 10px 10px;
+        flex-direction: column-reverse;
+    }
+    
+    .sectionTag{
+        font-size: 30px;
+    }
+
+    .sectionSubTag{
+        font-size: 20px; 
+        padding-bottom: 10px;
+    }
+    .para{
+        text-align: center;
+        padding: 10px 20px;
+        margin: 10px 10px;
+    }
+
+    
+    .fhalf{
+        width: 70%;
+        text-align: justify;
+        font-size: 30px;
+    }
+    .shalf{
+        display: flex;
+        width: 70%;
+    }
+    
+    .shalf img{
+        padding-left: 50px;
+        width: 100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .imgdown {
+        width: 5%;
+        display: block;
+        padding: 60px 20px;
+        margin: 10px 45%;
+    }
+
+    .imgBook {
+        width: 120px;
+    }
+
+    .imgProject {
+        width: 120px;
+    }
+
+    .imgCourse{
+        width: 140px;
+    }
+
+    .footext{
+        font-size: 12px;
+    }
+
+    .btn-learn{
+        margin: auto;
+        display: block;
+    }
+}

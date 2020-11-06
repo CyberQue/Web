@@ -1,0 +1,35 @@
+@media only screen and (max-width: 911px) {
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        height: 300px;
+    }
+    .logo{
+        width: 40%;
+        margin: auto;
+    }
+
+    .navImage{
+        flex-direction: column;
+    
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    
+    .footext{
+        font-size: 12px;
+    }
+
+}

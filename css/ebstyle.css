@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Questrial&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #010506;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    padding: 20px 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 130%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    background-color:#010506;
+}
+
+.nav-list {
+    width: 45%;
+    background-color: #010506;
+    display: flex;
+    align-items: right;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #f8c25c;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #EEF8F7 ;
+}
+  
+.navImage{
+    width: 55%;
+    background-color: #010506;
+}
+
+
+.para{
+    background-color: #f8c25c;
+}
+
+.mainSec{
+    padding: 30px 20px;
+    display: flex;
+    background-color: #f8c25c;
+    height: 50%;
+}
+
+.first{
+    padding: 0px 10px;
+    margin: auto;
+    width: 35%;
+}
+
+.second{
+    padding: 0px 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.para{
+    padding: 20px 20px;
+}
+
+.sectionTag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-variant: small-caps;
+}
+
+.sectionSubTag {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+
+.imgsmall{
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+
+#javalogo{
+    width: 80px;
+}
+
+#ML-logo{
+    width: 180px;
+
+}
+
+#cybersec-logo{
+    width: 180px;
+}
+.btn-learn {
+    display: flex;
+    margin: 7px 0px;
+    padding: 6px 15px;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    background: none;
+    border: 2px solid #010506;
+    border-radius: 1px;
+    transition-duration: 0.4s;
+}
+
+.btn-learn:hover{
+    background-color: #010506;
+    color: #f8c25c;
+    cursor: pointer;
+}
+
+.heading1{
+    background-color: #f8c25c;
+    color: #010506;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 15px
+
+}
+.line{
+    width: 30px;
+    background-color: #f8c25c;
+    height: 3px;
+    margin: 5px 2px;
+}
+.footext{
+    background-color: #010506;
+    color: #f8c25c;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center; 
+    padding: 20px 20px;
+}
